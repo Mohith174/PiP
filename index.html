@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture in Picture App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="camera.png">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Picture in Picture Application</h1>
+        </header>
+        <p class="instructions">
+            1. Refresh in case, the share panel does not open and choose a window or application to share.<br>
+            2. After selection, the chosen content will appear here. Click 'Start Sharing' again to begin Picture in Picture.<br>
+            3. Click 'Stop Sharing' to exit Picture in Picture mode.
+        </p>
+        <div class="video-container">
+            <video id="video" controls hidden></video>
+        </div>
+        <div class="button-container">
+            <button id="startButton">Start Sharing</button>
+            <button id="stopButton" hidden>Stop Sharing</button>
+        </div>
+        <footer>
+            <p>© 2024 Mohith Kodavati. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

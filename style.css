@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(37, 37, 37); /* Dark background as per the original */
+    font-family: 'Poppins', sans-serif;
+    color: white; /* For better visibility on dark background */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white for a frosted glass effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3); /* Dark shadow for depth */
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    backdrop-filter: blur(5px); /* Adding blur for the frosted glass effect */
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.instruction {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+button {
+    background: linear-gradient(to right, #575757, #424242); /* Gradient based on dark shades */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for 3D effect */
+}
+
+button:hover {
+    background: linear-gradient(to left, #575757, #424242); /* Inverse gradient on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Reduced shadow when pressed */
+}
+
+footer {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 20px;
+}
