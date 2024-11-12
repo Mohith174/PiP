@@ -1,5 +1,8 @@
 # Picture in Picture Application (PiP)
 
+## Live Application
+Visit the live Picture in Picture application here: [PiP Live App](https://mohith174.github.io/PiP/)
+
 ## Overview
 The Picture in Picture (PiP) Application enables users to overlay a selected screen from their device (like a specific application window or the entire screen) on top of other windows. This functionality is useful for multitasking, allowing users to monitor one task while actively engaging in another. The application leverages modern web APIs to implement PiP and is optimized for use with Google Chrome due to the specific API compatibilities.
 
